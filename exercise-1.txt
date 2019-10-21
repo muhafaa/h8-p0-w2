@@ -1,0 +1,70 @@
+1.	Newton Second Law
+
+	Algoritma:
+
+	1. Tentukan nilai masssa (m) dalam satuan kilogram (kg) pada sebuah mobil.
+	2. Tentukan percepatan (a) dalam satuan meter per detik kuadrat (m/s2) mobil tersebut.
+	3. Untuk mendapatkan resultan gaya (resultan gaya (ΣF) = massa benda (m) x percepatan benda (a)), kalikan massa dan percepatan mobil (m x a).
+	4.  Tampilkan nilai resultan gaya (ΣF).
+
+	Pseudocode:
+
+	SET mass WITH VALUE 600
+	SET accel WITH VALUE 2
+	SET force WITH ANY VALUE
+	CALCULATE mass TIMES accel STORE TO force
+	DISPLAY force
+
+2. 	Tahun Kabisat
+
+	Algoritma:
+
+	1. Pilih nilai tahun yang ingin ditentukan.
+	2. Jika hasilnya nilai tahun tersebut habis dibagi dengan 4 dan tidak habis dibagi 100 maka tampilkan "Tahun Kabisat".
+	3. Jika tahun habis dibagi dengan 4, habis di bagi 100 dan habis dibagi 400 maka tampilkan "Tahun Kabisat".
+	3. Jika bukan keduanya maka tampilkan "Bukan Tahun Kabisat".
+
+	Pseudocode:
+
+	SET tahun WITH VALUE 2018
+	IF tahun MOD 4 EQUALS 0 AND tahun MOD 100 NOT EQUALS 0 THEN
+		DISPLAY "Tahun Kabisat"
+	ELSE IF tahun MOD 4 EQUALS 0 AND tahun MOD 100 EQUALS 0 AND tahun MOD 400 EQUALS 0 THEN
+		DISPLAY "Bukan Tahun Kabisat"
+	ELSE
+		DISPLAY "Bukan Tahun Kabisat"
+	END
+
+3.	Laundry Day
+
+	Algoritma:
+
+	1. Tentukan jumlah pakaian yang akan dicuci.
+	2. Masukkan satu per satu pakaian sampai seluruh pakaian habis dimasukkan ke mesin cuci.
+	3. Setelah pakaian berjumlah 20 mesin akan nyala. 
+
+	Pseudocode:
+
+	SET pakaian WITH VALUE 0
+	WHILE pakaian LESS THAN 20
+		INCREMENT pakaian
+		DISPLAY pakaian
+	ENDWHILE
+	DISPLAY "Mesin Dinyalakan"
+
+4.	Periksa Kuku
+	
+	Algoritma:
+
+	1. 
+
+	Pseudocode:
+
+	SET siswa WITH ANY VALUE
+	FOR siswa LESS THAN 40
+		IF siswa EQUALS "Kuku Panjang"
+			DISPLAY "Siswa yang kuku panjang kena hukuman"
+		ELSE
+			DISPLAY "Siswa yang kukunya tidak panjang dapat pujian"
+		END IF
+	END FOR
