@@ -49,7 +49,7 @@
 	WHILE pakaian LESS THAN 20
 		INCREMENT pakaian
 		DISPLAY pakaian
-	ENDWHILE
+	END WHILE
 	DISPLAY "Mesin Dinyalakan"
 
 4.	Periksa Kuku
@@ -62,11 +62,12 @@
 
 	Pseudocode:
 
-	SET siswa WITH ANY VALUE
-	FOR siswa LESS THAN 40
+	SET siswa WITH 1
+	WHILE siswa LESS THAN 40
+		INCREMENT siswa
 		IF siswa EQUALS "Kuku Panjang"
 			DISPLAY "Siswa yang kuku panjang kena hukuman"
 		ELSE
 			DISPLAY "Siswa yang kukunya tidak panjang dapat pujian"
 		END IF
-	END FOR
+	END WHILE
