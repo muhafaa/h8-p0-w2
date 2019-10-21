@@ -5,7 +5,7 @@
 	1. Tentukan nilai masssa (m) dalam satuan kilogram (kg) pada sebuah mobil.
 	2. Tentukan percepatan (a) dalam satuan meter per detik kuadrat (m/s2) mobil tersebut.
 	3. Untuk mendapatkan resultan gaya (resultan gaya (ΣF) = massa benda (m) x percepatan benda (a)), kalikan massa dan percepatan mobil (m x a).
-	4.  Tampilkan nilai resultan gaya (ΣF).
+	4.  Maka didapatlah nilai resultan gaya (ΣF).
 
 	Pseudocode:
 
@@ -20,9 +20,9 @@
 	Algoritma:
 
 	1. Pilih nilai tahun yang ingin ditentukan.
-	2. Jika hasilnya nilai tahun tersebut habis dibagi dengan 4 dan tidak habis dibagi 100 maka tampilkan "Tahun Kabisat".
-	3. Jika tahun habis dibagi dengan 4, habis di bagi 100 dan habis dibagi 400 maka tampilkan "Tahun Kabisat".
-	3. Jika bukan keduanya maka tampilkan "Bukan Tahun Kabisat".
+	2. Jika hasilnya nilai tahun tersebut habis dibagi dengan 4 dan tidak habis dibagi 100 maka tahun tersebut adalah tahun kabisat.
+	3. Jika tahun habis dibagi dengan 4, habis di bagi 100 dan habis dibagi 400 maka tahun tersebut adalah tahun kabisat.
+	3. Jika bukan keduanya maka tahun tersebut bukan tahun kabisat.
 
 	Pseudocode:
 
@@ -41,7 +41,7 @@
 
 	1. Tentukan jumlah pakaian yang akan dicuci.
 	2. Masukkan satu per satu pakaian sampai seluruh pakaian habis dimasukkan ke mesin cuci.
-	3. Setelah pakaian berjumlah 20 mesin akan nyala. 
+	3. Nyalakan mesin cuci. 
 
 	Pseudocode:
 
@@ -56,7 +56,9 @@
 	
 	Algoritma:
 
-	1. 
+	1. Tentukan jumlah siswa/siswi mana saja yang nanti akan diperiksa.
+	2. Jika diantara siswa/siswi ada yang kuku panjang, maka guru akan memberikan hukuman.
+	3. Jika siswa/siswa kukunya tidak panjang, maka akan guru akan memberikan pujian. 
 
 	Pseudocode:
 
