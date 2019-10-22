@@ -62,9 +62,9 @@
 
 	Pseudocode:
 
-	SET siswa WITH 1
-	WHILE siswa LESS THAN 40
-		INCREMENT siswa
+	SET siswa WITH 40
+	WHILE siswa EQUAL 40
+		DECREMENT siswa
 		IF siswa EQUALS "Kuku Panjang"
 			DISPLAY "Siswa yang kuku panjang kena hukuman"
 		ELSE
