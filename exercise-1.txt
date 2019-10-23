@@ -59,15 +59,16 @@
 	1. Tentukan jumlah siswa/siswi mana saja yang nanti akan diperiksa.
 	2. Jika diantara siswa/siswi ada yang kuku panjang, maka guru akan memberikan hukuman.
 	3. Jika siswa/siswa kukunya tidak panjang, maka akan guru akan memberikan pujian. 
+	4. Periksa satu persatu siswa/siswi hingga semuanya selesai. 
 
 	Pseudocode:
 
-	SET siswa WITH 1
-	WHILE siswa LESS THAN 40
-		INCREMENT siswa
+	SET siswa WITH 40
+	WHILE siswa MORE THAN EQUAL 0
 		IF siswa EQUALS "Kuku Panjang"
 			DISPLAY "Siswa yang kuku panjang kena hukuman"
 		ELSE
 			DISPLAY "Siswa yang kukunya tidak panjang dapat pujian"
 		END IF
+		DECREMENT siswa
 	END WHILE
