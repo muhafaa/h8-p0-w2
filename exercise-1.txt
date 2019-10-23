@@ -64,7 +64,7 @@
 	Pseudocode:
 
 	SET siswa WITH 40
-	WHILE siswa EQUAL 0
+	WHILE siswa MORE THAN EQUAL 0
 		IF siswa EQUALS "Kuku Panjang"
 			DISPLAY "Siswa yang kuku panjang kena hukuman"
 		ELSE
