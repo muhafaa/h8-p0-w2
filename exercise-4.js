@@ -1,7 +1,6 @@
-// FORMAT TANGGAL
-var tanggal = 15    // 1-31
-var bulan   = 12    // 1-12
-var tahun   = 1997  // 1990-2200
+var tanggal = Math.round(Math.random() * 31)    // 1-31
+var bulan   = Math.round(Math.random() * 13)    // 1-12 *13 = biar default tampil
+var tahun   = Math.round((Math.random() * 300) + 1900)  // 1900-2200
 
 switch (bulan) {
     case 1:
