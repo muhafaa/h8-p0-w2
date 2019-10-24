@@ -1,6 +1,6 @@
 var tanggal = Math.round(Math.random() * 31)    // 1-31
 var bulan   = Math.round(Math.random() * 13)    // 1-12 *13 = biar default tampil
-var tahun   = Math.round((Math.random() * 210) + 1990)  // 1990-2200
+var tahun   = Math.round((Math.random() * 300) + 1900)  // 1900-2200
 
 switch (bulan) {
     case 1:
