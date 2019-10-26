@@ -18,9 +18,8 @@
 
 //	3. Menyusun barisan tangga bintang dengan nested looping
     var rows;
-    var star = '*';
 
-    for (rows = 1; rows <= 5; rows++) {
-        console.log(star);
-        star = star + '*';
+    for (rows = ''; rows.length < 5; rows.length++) {
+        rows += '*'
+        console.log(rows);
     }
